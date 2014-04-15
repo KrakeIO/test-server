@@ -23,7 +23,7 @@ module.exports =
 
 if !module.parent
   # Start api server
-  port = process.argv[2] || 10001
+  port = process.argv[2] || 10002
   app.listen port
   console.log "Test server listening at port : %s", port
 
